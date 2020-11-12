@@ -20,6 +20,7 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'webpacker', '~> 5.x'
 gem 'faker'
+gem 'rails-erd', group: :development
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   has_many :blogs
-  has_many :addtags, as: :taggable
+  has_many :appointments, through: :appointments_users
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and 
   devise :database_authenticatable, :registerable,

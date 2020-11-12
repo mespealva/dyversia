@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :horarios
+  resources :appointments
   devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
   resources :blogs
   root 'blogs#index'
